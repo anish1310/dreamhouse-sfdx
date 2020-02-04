@@ -12,6 +12,7 @@ public with sharing class BotController {
 
     }
 
+    
     static List<HandlerMapping> handlerMappings;
     
     static {

@@ -69,7 +69,7 @@ jobs:
                 DISPLAY_USER_JSON: ${{ steps.display_user.outputs.result }}
                 DISPLAY_URL_JSON: ${{ steps.display_url.outputs.result }}
                 SENDGRID_API_KEY: ${{ secrets.SENDGRID_API_KEY }}
-                SCRIPT_FILEPATH: scripts/email.js
+                SCRIPT_FILEPATH: scripts\email.js
           - name: Display org information
             id: display_org
             uses: forcedotcom/salesforcedx-actions@master

@@ -17,8 +17,8 @@ Login URL: ${DISPLAY_USER_JSON.result.loginUrl}
 `;
 
 const msg = {
-    to: 'anish.arora@appirio.com',
-    from: 'anish.arora@appirio.com',
+    to: 'anish.arora99@gmail.com',
+    from: 'anish.arora99@gmail.com',
     subject: 'Welcome to your new scratch org',
     text: TEXT,
 };
